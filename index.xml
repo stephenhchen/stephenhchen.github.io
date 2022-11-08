@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Stephen Chen</title><link>/</link><description>Recent content on Stephen Chen</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>© 2022</copyright><lastBuildDate>Thu, 04 Jun 2020 09:19:29 -0400</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>Math test</title><link>/blog/math-test/</link><pubDate>Thu, 04 Jun 2020 09:19:29 -0400</pubDate><guid>/blog/math-test/</guid><description>Examples Inline math: $$ \varphi = \dfrac{1+\sqrt5}{2}= 1.6180339887… $$
+Block math:
+$$ \sigma(t) = \cfrac{1}{1 + e^{-t}} $$
+Let&amp;rsquo;s try some code
+pancake = &amp;quot;kun&amp;quot;</description></item><item><title>Pancake Kun</title><link>/blog/pancake-kun/</link><pubDate>Thu, 04 Jun 2020 09:19:29 -0400</pubDate><guid>/blog/pancake-kun/</guid><description>Does it need a title? Hello der</description></item></channel></rss>
