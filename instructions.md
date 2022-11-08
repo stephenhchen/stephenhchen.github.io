@@ -1,7 +1,7 @@
 README.md
 
 ## Updating about page
-You can plug in different contact for the about page at `content/_index.md`. For styling help, contact the webmaster ;-D
+You can plug in different contact for the about page at `content/_index.md`. For styling changes, contact the webmaster ;-D
 
 ## Add a new blog post
 Go to the project root and type:
@@ -16,7 +16,7 @@ This will create a new blank post with the following 'frontmatter', or metadata 
 
 title: "First Blog Post" # Title of post; default is the filename
 date: 2022-10-29T16:36:16-05:00
-slug: ""
+slug: "" # add something here if you want the blog post name in the URL to be something besides its filename
 description: ""
 keywords: []
 draft: true              # Change to `false` once the post is ready to be published
