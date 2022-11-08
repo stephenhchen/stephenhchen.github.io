@@ -29,3 +29,8 @@ To preview your blog, start the hugo development server with the following comma
 ```
 hugo server -D
 ```
+
+Preview your changes live at `localhost:1313`
+
+## Edit blog posts
+Access your blog posts under the `content/blog` directory and edit the markdown files directly.
