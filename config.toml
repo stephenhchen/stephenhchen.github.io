@@ -4,7 +4,7 @@ theme = "hugo-theme-codex"
 # Override these settings with your own
 title = "Stephen Chen"
 languageCode = "en-us"
-# baseURL = ""
+# baseURL = "https://stephenhchen.github.io"
 copyright = "© 2022"
 
 # Add your Disqus shortname here.
