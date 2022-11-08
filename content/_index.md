@@ -1,7 +1,5 @@
 ---
 heading: "Stephen Chen"
-subheading: "A researcher who's also a pancake"
+subheading: "Just trying to make something happen here"
 # handle: "hugo-theme-codex"
 ---
-
-I enjoy learning things n hanging out with my cute fiance.
