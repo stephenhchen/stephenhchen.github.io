@@ -4,7 +4,7 @@ date: 2022-09-14T23:29:33-06:00
 slug: ""
 description: ""
 keywords: []
-draft: true
+draft: false
 tags: []
 math: true
 toc: false
@@ -68,7 +68,7 @@ Continuing with this oracle model, we also ignore the costs for computing higher
 So at each step of Newton’s method, we take a matrix-vector product using the inverse Hessian. This means we are changing the space around \\(x_t\\) with a linear transformation (a pretty special one actually). Let’s see what exactly this means.
 
 
-👉 Note: Often we assume \\(f\\) convex, which means \\(H(x_t)=\nabla^2 f(x_t)\\) is positive semi-definite, but this gives no guarantee on the invertibility of \\(H\\) (\\(H\\) needs to be positive definite). A sufficient condition is that \\(f\\) if \\(\alpha\\)-strongly convex, which by definition gives us a *lower* bound on the smallest eigenvalue being positive, but this is not a necessary condition. The fact that we are even considering using Newton’s Method on \\(f\\) assumes that \\(f\\) is nice enough that we can invert \\(H\\) (even if it’s expensive).
+👉 Note: Often we assume \\(f\\) convex, which means \\(	\nabla^2 f(x_t)\\) is positive semi-definite, but this gives no guarantee on the invertibility of \\(H\\) (\\(H\\) needs to be positive definite). A sufficient condition is that \\(f\\) if \\(\alpha\\)-strongly convex, which by definition gives us a *lower* bound on the smallest eigenvalue being positive, but this is not a necessary condition. The fact that we are even considering using Newton’s Method on \\(f\\) assumes that \\(f\\) is nice enough that we can invert \\(H\\) (even if it’s expensive).
 
 
 Let’s fix some \\(x_t\\) in our trajectory. Since \\(H\\) is symmetric, we can diagonalize it according to to the spectral theorem. So let 
