@@ -1,5 +1,8 @@
 README.md
 
+## Updating about page
+You can plug in different contact for the about page at `content/_index.md`. For styling help, contact the webmaster ;-D
+
 ## Add a new blog post
 Go to the project root and type:
 ```
