@@ -4,7 +4,7 @@ date: 2022-09-14T23:29:33-06:00
 slug: ""
 description: ""
 keywords: []
-draft: false
+draft: true
 tags: []
 math: true
 toc: false
@@ -13,6 +13,15 @@ toc: false
 
 The aim of this post is to gain intuition for understanding Newton’s method.
 
+One of the central ideas is that linear transformations of the decision variable space can lead to quite different gradient descent trajectories. That is, GD is *not* invariant to linear transformations. We'll see with simple quadratics, we can get convergence in just one step by picking the right transformation! That is, given any starting point, we arrive at the optimal solution in the next step. This is as good as you can hope for.
+
+### A simple example
+
+To illustrate the main ideas, we can consider a function \\(g(x) = f(Ax)\\) where \\(A \in \mathbb{R}^{m\times n}.  \\)
+Let's anchor our thoughts with a simple example. Suppose we le
+
+
+### Deriving the update rule
 We look back at how gradient descent was derived previously where we chose to approximate \\(f\\) locally around a given point \\(x_t\\) with a linear function:
 
 \\(
